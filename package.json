@@ -5,11 +5,10 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "webpack --config=./config/webpack.prod.js"
+    "build": "tsc"
   },
   "keywords": [
-    "ACT",
-    "Core"
+    "logger"
   ],
   "author": "Alexei Zaviruha << a.zaviruha@gmail.com >",
   "license": "ISC",
