@@ -1,0 +1,24 @@
+{
+  "name": "act-logger",
+  "version": "0.1.0",
+  "description": "Dirty-hacked package for some internal logging stuff.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "webpack --config=./config/webpack.prod.js"
+  },
+  "keywords": [
+    "ACT",
+    "Core"
+  ],
+  "author": "Alexei Zaviruha << a.zaviruha@gmail.com >",
+  "license": "ISC",
+  "dependencies": {
+    "date-fns": "^2.23.0",
+    "log-with-style": "^0.3.0",
+    "loglevel": "^1.6.7"
+  },
+  "devDependencies": {
+    "typescript": "^4.3.5"
+  }
+}
